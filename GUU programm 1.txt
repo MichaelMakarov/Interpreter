@@ -1,0 +1,19 @@
+sub main
+	set a 1
+	call foo
+    	print a
+	set d 0
+	call fun
+	call printeverything
+
+sub foo
+    	set a 2
+sub fun
+	set b 23
+	set c 45
+	print c
+sub printeverything
+	print a
+	print b
+	print c
+	print d

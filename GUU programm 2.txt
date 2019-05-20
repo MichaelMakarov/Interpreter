@@ -1,0 +1,21 @@
+
+sub fun
+	print c
+
+
+sub main
+	set a 1
+	call foo
+    	print a
+	set c 888
+	call fun
+	call printeverything
+
+sub foo
+    	set a 12
+	set b 21
+
+sub printeverything
+	print a
+	print b
+	print c
